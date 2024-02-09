@@ -5,14 +5,6 @@ html, body {
     height: 100%;
 }
 
-.div-topo{
-    background-color: rgb(184, 67, 0);
-    box-shadow: 0 12px 0 rgb(128, 47, 0);
-
-    height: 100px;
-    width: 100%;
-}
-
 .div-titulo{
     background-color: rgb(2, 207, 207);
     box-shadow: 0 12px 0 rgb(0, 102, 102);
@@ -25,7 +17,7 @@ html, body {
     border-width: 10px;
     border-color: rgb(0, 148, 148); 
 
-    margin: -100px auto auto auto;
+    margin: auto auto 10% auto;
 
     display: grid;
     grid-template-rows: 25%;

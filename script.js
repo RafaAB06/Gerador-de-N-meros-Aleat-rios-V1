@@ -1,5 +1,5 @@
 const botaoGerador = document.getElementById('botao-gerador');
-const textosBotaoGerador = ['Gerar Número', 'Gerando Número...']
+const textosBotaoGerador = ['Gerar Número', 'Gerando Número...'];
 
 const textoSobre = document.getElementById('texto-dentro-sobre');
 const textosSobre = ['Insira um Intervalo Válido', 'Insira um Intervalo Numérico Real'];
