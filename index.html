@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gerador</title>
+  <link rel="icon" href="./assets/dado.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="div-titulo">
+      <h1 class="titulo">Gerador de Números</h1>
+      <img class="titulo3d" src="./assets/3dtitle.png" alt="">
+    </div>
+
+  <div id="texto-sobre">
+    <h1 id="texto-dentro-sobre">
+      Insira um Intervalo Numérico Real
+    </h1>
+  </div>
+
+  <div class="container-motor">
+    <img class="gear" src="./assets/gear.png">
+
+    <div class="container-gerador">
+      <input id="min" type="text" placeholder="Mín.">
+      <input id="max" type="text" placeholder="Máx.">
+      <button class="botao-gerador" id="botao-gerador">
+        Gerar Número
+      </button>
+    </div>
+    <img class="gear" src="./assets/gear.png">
+  </div>
+
+  <div id="leaderBoard">
+   
+  </div>
+  
+  <div class="quadrado-que-gira" id="quadrado-que-gira"></div>
+
+  <audio id="som-motor" src="./assets/media/motor.mp3"></audio>
+  <audio id="som-creeper" src="./assets/media/creeper.mp3"></audio>
+  <audio id="som-error" src="./assets/media/error.mp3"></audio>
+</body>
+</html>
